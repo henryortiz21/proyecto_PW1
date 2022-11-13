@@ -53,10 +53,9 @@ li {
     margin: 0px;
     float: left;
 }
-.logo a{
-    min-width: fit-content;
-    font-family: 'fuentelogo';
-    font-size: 40px;
+.logo img{
+    width: 72px; /*or your image's width*/
+    height: 32px; /*or your image's height*/
 }
 
 /*Cart*/
@@ -85,6 +84,31 @@ li {
     background-color: #F28444;
     transition: 0.5s ease;
 }
+.menu .li_activo {
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+    font-weight: bold;
+}
+.menu .li_activo:hover {
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    background: none;
+}
+
+.menu .li_activo2 {
+    border-bottom: 2px #F28444 solid;
+}
+.menu .li_activo2 a{
+    color: white;
+    font-weight: bold;
+}
+.menu .li_activo2:hover {
+    border-left: 1px #F28444 solid;
+    border-right: 1px #F28444 solid;
+    background: none;
+}
+
+
 .menu_right li:hover {
     background-color: #F28444;
     transition: 0.5s ease;
@@ -155,8 +179,8 @@ footer .logo_footer{
 
 
 footer .logo_footer img{
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
 }
 
 footer .div_vision{
