@@ -1,36 +1,17 @@
-Colores_pastel{
-    Rosado limon
-    #EAD5E1
+Fondo principal
+#F2F2F2
 
-    Verde menta
-    #AEE0C5
+Navbar fondo
+#220C40
 
-    Azul suave
-    #CBEAEB
+Texto_menu
+white
+#F2F2F2
 
-    Naranja
-    #FFB100
+hover menu
+#F28444
 
-    Turquesa
-    #6799A3
 
-    Negro
-    #000
-}
-Colores_dark{
 
-    Amarillo
-    #FFCE2B
-    
-    Carbon
-    #42413D
 
-    Ash
-    #B2AFAC
 
-    Dust
-    #959492
-
-    White
-    #white
-}

@@ -6,16 +6,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="../css/estilo.css" />
    <link rel="stylesheet" href="../css/estilo_slider.css" />
+   <link rel="shortcut icon" href="../img/icono_pagina.svg">
    <title>Ak Shop</title>
  </head>
  <body>
    <nav class="navbar">
      <!-- LOGO -->
-     <div class="logo"><a href="#">
-      <h3>Ak Shop</h3>
-    </a>
-     </div>
-     <!-- NAVIGATION MENU -->
+     <div class="logo"><a href="#">Ak shop</a></div>
+     <!--MENU DE NAVEGACION-->
      <ul class="nav-links">
        <div class="menu">
          <li><a href="#">Mujer</a></li>
@@ -23,11 +21,19 @@
          <li><a href="#">Ofertas</a></li>
        </div>
      </ul>
+    
      <div class="menu_right">
-      <li><a href="#">Conectarse</a></li>
-      <li><a href="#"><img class="img_cart" src="../img/cart.png"/></a></li>
-      </div>
-   </nav>
+      <li class="li_busqueda" id="li_busqueda">
+        <div class="fondo_busqueda">
+          <img src="../img/icon_busqueda.svg" style="width:24px; height:24px" />
+          <input class="textobusqueda" type="text" placeholder="Busqueda">
+        </div>
+      </li>
+      <li><a href="#"><img class="img_cart" src="../img/user.png" />Conectarse</a></li>
+      <li><a href="#"><img class="img_cart" src="../img/cart.png" /></a></li>
+    </div>
+   
+  </nav>
 
    <div class="contenedor">
    <div class="slider">
@@ -42,10 +48,44 @@
     </ul>
   </div>
   </div>
-  <!--<script src="../js/slider.js"></script>-->
+  
+  <div style="height: 200px; width: 100%; display: flex; align-items: center; justify-content: center;">
+    <h1>Mas Contenido</h1>
+  </div>
 
   <footer>
-    <h3>Integrantes</h3>
+    <div class="logo_footer">
+      <img src="../img/logo_claro.svg" />
+      Tu tienda online
+    </div>
+  
+    <div class="div_vision">
+      <h3>Mapa del sitio</h3>
+      <div >
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Mujeres</a>
+        </li>
+        <li>
+          <a href="#">Hombres</a>
+        </li>
+        <li>
+          <a href="#">Ofertas</a>
+        </li>
+      </div>
+    </div>
+  
+    <div style="float:right;">
+      <h3>Síguenos</h3>
+      <di class="div_redes">
+        <img src="../img/red1.png">
+        <img src="../img/red2.png">
+        <img src="../img/red3.png">
+      </di>
+    </div>
   </footer>
- </body>
+ 
+</body>
 </html>
